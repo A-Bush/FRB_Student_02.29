@@ -1,0 +1,102 @@
+body {
+	background-color: snow;
+}
+
+.navbar {
+	border: none;
+	font-weight: bolder;
+	font-size: 1.1em;
+	margin-top: 30px;
+	background-color: #222222;
+}
+
+.jumbotron p {
+	color:#EEEEEE;
+	font-size: 2.2em; 
+	text-align: center;
+}
+
+.jumbotron h1 {
+	color:#EEEEEE;
+}
+
+.bg-black {
+	background-color: #222222;
+}
+
+.btn-lg {
+	margin-top: 30px;
+	background-color: #EA6660;
+	border:none;
+	color:#EEEEEE;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.bg-snow {
+background-color: snow;
+}
+
+.thumbnail {
+	border:none;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: snow;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: snow;
+	text-shadow: 0px 0px 13px snow;
+}
+
+h2 {
+	font-size: 2.5em;
+	font-weight: bolder; 
+}
+
+.jumbotron .p-black {
+	color:#333333;
+}
+
+.btn-default {
+	margin-top: 10px;
+	background-color: #EA6660;
+	border: none;
+	color:#EEEEEE;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.btn-green {
+	background-color:green;
+}
+
+.ef{
+	margin-bottom: 50px;
+}
+
+.mrgn-top {
+	margin-top: -70px;
+}
+
+.mrgn-t {
+	margin-top: 70px;
+}
+
+.jumbotron {
+	margin-bottom:0px;
+}
+h3,h4{
+	color:snow;
+	font-size: 1em;
+}
+.navbar-header {
+	margin-bottom: 13px;
+}
+
+h5 {
+	font-weight: bolder;
+}

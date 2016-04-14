@@ -8,7 +8,7 @@ main {
 	display: flex;
 	justify-content: space-between;
     flex-wrap: wrap;
-	width: 900px;
+	width: 1000px;
 	height: 1010px;
 	background-color: hsla(506, 20%, 40%, 0.17);
 	padding: 20px;
@@ -35,7 +35,7 @@ header {
 	justify-content: space-between;
 	background-color: hsla(506, 20%, 40%, 0.17);
 	border-radius: 8px;
-	width: 240px;
+	width: 270px;
 	height: 400px;
 	padding: 20px;
 	margin: 10px;
@@ -68,7 +68,7 @@ header {
     justify-content: space-between;
 	background-color: hsla(506, 20%, 40%, 0.17);
 	border-radius: 8px;
-	width: 540px;
+	width: 610px;
 	height: 400px;
 	padding: 20px;
 	margin: 10px; 
@@ -80,7 +80,7 @@ header {
 	align-self: flex-start;
 	background-color: hsla(506, 20%, 40%, 0.17);
 	border-radius: 8px;
-	width: 120px;
+	width: 145px;
 	height: 100px;
 	padding: 20px;
 	margin: 10px; 	
@@ -92,7 +92,7 @@ header {
 	align-self: center;
 	background-color: hsla(506, 20%, 40%, 0.17);
 	border-radius: 8px;
-	width: 120px;
+	width: 145px;
 	height: 100px;
 	padding: 20px;
 	margin: 10px; 		
@@ -104,7 +104,7 @@ header {
 	align-self: flex-end;
 	background-color: hsla(506, 20%, 40%, 0.17);
 	border-radius: 8px;
-	width: 120px;
+	width: 145px;
 	height: 100px;
 	padding: 20px;
 	margin: 10px; 
@@ -116,7 +116,7 @@ header {
 	justify-content: center;
 	background-color: hsla(506, 20%, 40%, 0.17);
 	border-radius: 8px;
-	width: 240px;
+	width: 270px;
 	height: 250px;
 	padding: 20px;
 	margin: 10px; 
@@ -142,7 +142,7 @@ header {
 	justify-content: center;
 	background-color: hsla(506, 20%, 40%, 0.17);
 	border-radius: 8px;
-	width: 240px;
+	width: 270px;
 	height: 250px;
 	padding: 20px;
 	margin: 10px; 
@@ -191,7 +191,7 @@ header {
 	justify-content: center;
 	background-color: hsla(506, 20%, 40%, 0.17);
 	border-radius: 8px;
-	width: 240px;
+	width: 270px;
 	height: 250px;
 	padding: 20px;
 	margin: 10px; 
@@ -261,8 +261,14 @@ cursor: pointer;
 
 .up {
 background-size: contain;
+background-blend-mode: luminosity;
 }
 
 .up:active {
 -webkit-filter: blur(3px); filter: blur(3px);
+background-blend-mode: luminosity;
+}
+
+div {
+	
 }
