@@ -1,5 +1,8 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300');
+
 body {
 	background-color: snow;
+	    color: #1F548C;
 }
 
 .navbar {
@@ -12,7 +15,7 @@ body {
 
 .jumbotron p {
 	color:#EEEEEE;
-	font-size: 2.2em; 
+	font-size: 2.2em;
 	text-align: center;
 }
 
@@ -21,7 +24,13 @@ body {
 }
 
 .bg-black {
-	background-color: #222222;
+	/*background-color: #222222;*/
+	background-image: url('img/sky-bg.jpg');
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .btn-lg {
@@ -34,27 +43,89 @@ body {
 	padding: 1em;
 	padding-left: 2em;
 	padding-right: 2em;
+	-webkit-box-shadow: 3px 5px 10px -3px rgb(28, 60, 107);
+-moz-box-shadow: 3px 5px 10px -3px rgb(28, 60, 107);
+box-shadow: 3px 5px 10px -3px rgb(28, 60, 107);
+}
+
+.shadow-welcome {
+    text-shadow: 2px 3px 2px rgb(0, 46, 100);
+}
+
+.btn-lg:hover {
+color: #F9F9F9;
+-webkit-box-shadow: inset 1px 2px 9px -4px rgba(20,6,6,1);
+-moz-box-shadow: inset 1px 2px 9px -4px rgba(20,6,6,1);
+box-shadow: inset 1px 2px 9px -4px rgba(20,6,6,1);
 }
 
 .bg-snow {
 background-color: snow;
 }
 
+.bg-white {
+background-color: white;
+padding:20px;
+color: #00477E;
+}
+
+.jumbotron p {
+font-family: 'Open Sans', Arial, Sans-Serif;
+color: #00477E;
+font-weight: bold;
+}
+
 .thumbnail {
 	border:none;
 }
+
+.navbar-inverse {
+    margin-bottom: 30px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: rgba(255, 250, 250, 0.01);
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: rgba(255, 250, 250, 0.05);
+}
+
+.navbar-inverse .navbar-toggle:focus {
+    background-color: rgba(255, 250, 250, 0.05);
+}
+
 .navbar-inverse .navbar-nav>li>a {
 	color: snow;
+		text-shadow: none;
+		box-shadow: none;
+    border: 1px solid transparent;
+    /* border-left: 1px solid #101010; */
+    border-radius: none;
+    margin: 3px;
+    background-color: none;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-	color: snow;
-	text-shadow: 0px 0px 13px snow;
+	/*color: snow;
+
+		box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    border: 1px solid white;
+    border-left: 1px solid #101010;
+
+    margin: 3px;
+    background-color: rgba(255, 255, 255, 0.03);*/
+    color: #F9F9F9;
+-webkit-box-shadow: inset 1px 2px 9px -4px rgba(20,6,6,1);
+-moz-box-shadow: inset 1px 2px 9px -4px rgba(20,6,6,1);
+box-shadow: inset 1px 2px 9px -4px rgba(20,6,6,1);
+text-shadow: 0px 0px 13px snow;
+border-radius: 10px;
 }
 
 h2 {
 	font-size: 2.5em;
-	font-weight: bolder; 
+	font-weight: bolder;
 }
 
 .jumbotron .p-black {
@@ -74,7 +145,7 @@ h2 {
 	background-color:green;
 }
 
-.ef{
+.ef {
 	margin-bottom: 50px;
 }
 
@@ -99,4 +170,27 @@ h3,h4{
 
 h5 {
 	font-weight: bolder;
+}
+
+.padding-footer {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.navbar-brand{
+	margin-top: -15px;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+
+	font-family: 'Open Sans', Arial, Sans-Serif;
+
+}
+
+.box-shadow {
+	-webkit-box-shadow: 3px 6px 14px -2px rgba(30,55,97,0.67);
+    -moz-box-shadow: 3px 6px 14px -2px rgba(30,55,97,0.67);
+    box-shadow: 3px 6px 14px -2px rgba(30,55,97,0.97);
+    border-radius: 10px;
+}
 }
