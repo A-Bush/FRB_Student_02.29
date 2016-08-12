@@ -1,0 +1,31 @@
+﻿.main{
+	height:600px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.bg{
+	width:300px;
+	height:200px;
+	background-image:url(../mySite/images/cupcakes2.jpg);
+	background-size:100%;
+	-webkit-filter:blur(5px);
+}
+@media screen and (min-width:400px) and (max-width:700px){
+	.main{
+		justify-content:flex-start;
+		align-items:flex-end;
+	}
+	.bg{
+		-webkit-filter:opacity(0.5);
+	}
+}
+@media screen and (max-width:400px){
+	.main{
+		justify-content:flex-end;
+		align-items:flex-start;
+	}
+	.bg{
+		-webkit-filter:invert(70%);
+	}
+}

@@ -1,0 +1,25 @@
+﻿.form-style {
+	background-color:#9FE5F5;
+	color:#53676F;
+	border:initial;
+	border:2px solid #9FE5F5;
+}
+#login {
+	border-bottom:1px dotted blue;
+}
+::-webkit-input-placeholder {color:#53676F;}
+#button-enter {
+	position:absolute;
+	top:80px;
+	background:-webkit-radial-gradient(center,circle contain,aqua,blue);
+	border:1px solid green;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	height:38px;
+	font-weight: bold;
+	font-size:12px;
+	width:50px;
+	text-align:center;
+}
+p:hover{
+-webkit-transform: rotate(90deg);}

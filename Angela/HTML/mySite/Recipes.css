@@ -1,0 +1,114 @@
+﻿	header{
+		width:100%;
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		font-family: 'Roboto Slab', serif;
+	}
+		.logo{
+			width:300px;
+			height:140px;
+		}
+			.logo img{width:300px}
+		.drop-menu{
+			background-color:#F1F1F1;
+			height:50px;
+			width:100%;
+		}
+			.menu {
+				margin:0px;
+				padding:0px;
+				list-style:none;
+				position: relative;
+				left:50%;
+				float: left;
+			}
+				.menu-item {
+					float:left;
+					position: inherit;
+					left:-50%;
+					font-size:16px;
+					text-align:center;
+					border:1px solid #F1EDED;
+					width:130px;
+				}
+					.menu-item a{
+						display:block;
+						color:#4A4A4A;
+						text-decoration:none;
+						line-height:48px;
+					}
+					.menu li:hover .submenu {
+						display:block;
+						left:0px;
+					}
+					a:hover {
+						color:#79B82E;
+						background-color:#E7F1DD;
+						animation:pulse 1s;
+					}
+					@keyframes pulse {
+					  from {
+					    -webkit-transform: scale3d(1, 1, 1);
+					    transform: scale3d(1, 1, 1);
+					  }
+
+					  50% {
+					    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+					    transform: scale3d(1.05, 1.05, 1.05);
+					  }
+
+					  to {
+					    -webkit-transform: scale3d(1, 1, 1);
+					    transform: scale3d(1, 1, 1);
+					  }
+					}
+						.submenu {
+							display:none;
+							position:absolute;
+							margin:0px;
+							padding:5px;
+							list-style:none;
+							background-color:#F1F1F1;
+							font-weight:initial;
+							z-index:1000;
+						}
+							.submenu-item {
+								margin:0px;
+								padding:0px;
+								width:200px;
+								font-size:14px;
+								text-align:left;
+								border:1px solid #F1EDED;
+							}
+							.submenu-item:hover>a{text-indent:5px}
+.content{
+	width:1200px;
+	margin:auto;
+}
+	section{
+		display:flex;
+		flex-wrap:wrap;
+		align-content:space-around;
+		background-color:#F9F9F9;
+	}
+		.most-popular{
+			width:300px;
+			height:300px;
+			background-image:
+				radial-gradient(closest-side, transparent 0%, transparent 75%, #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%),
+				radial-gradient(closest-side, transparent 0%, transparent 75%, #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%);
+			background-size: 110px 110px;
+			background-color: #C8D3A7;
+			background-position: 0 0, 55px 55px;
+			margin:25px 50px;
+			position:relative;
+		}
+			.blanc{
+				width:280px;
+				height:280px;
+				background-color:white;
+				position:absolute;
+				left:10px;
+				top:10px;
+			}

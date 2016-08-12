@@ -1,0 +1,94 @@
+﻿.float {
+	float:left;
+}
+.button1, .button2 {
+	width:400px;
+	height:100px;
+	border:3px solid red;
+	margin:10px;
+	background-color:black;
+}
+
+.ring, .box {
+	background-color:blue;
+	border:3px solid black;
+	width:100px;
+	height:100px;
+	position:absolute;
+	left:500px;
+}
+.ring {	border-radius:50%;
+		top:10px;
+		
+		
+}
+.box {
+	top:120px;
+	
+}
+@keyframes moveRight{
+	from{left:500px}
+to{left:600px}
+}
+@-webkit-keyframes moveRight{
+	from{left:500px}
+to{left:600px}
+}
+@keyframes stopped{
+	from{left:600px;}
+	to{left:600px;}
+}
+@keyframes stopped1 {
+	from{left:600px;
+		top:120px;
+		border-radius:50%;
+		border:5px dashed black;
+		background-color:blue;}
+		to{left:600px;
+		top:120px;
+		border-radius:50%;
+		border:5px dashed black;
+		background-color:blue;}
+}
+.button1:hover ~ .ring{
+		animation: moveRight 2s 1;
+		animation-fill-mode:forwards;
+}
+.button1 ~ .ring {
+	animation:stopped infinite 1;
+}
+.button2:hover ~ .box{
+	animation:vals 3s 1;
+	animation-fill-mode:forwards;
+}
+.button2 ~.box{
+	animation:stopped1 infinite 1;
+}
+@keyframes vals{
+	0%{
+		left:500px;
+		top:120px;
+		
+	}
+	33%{
+		left:500px;
+		top:220px;
+		border-radius:50%;
+		background-color:red;
+		
+	}
+	66%{
+		left:600px;
+		top:220px;
+		border-radius:25%;
+		border:1px dotted red;
+		background-color:green;
+	}
+	100%{
+		left:600px;
+		top:120px;
+		border-radius:50%;
+		border:5px dashed black;
+		background-color:blue;
+	}
+}

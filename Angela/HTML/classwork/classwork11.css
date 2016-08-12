@@ -1,0 +1,16 @@
+﻿ul {
+	list-style:none;
+
+}
+li {
+	background-color:green;
+	width:100px;
+	height:40px;
+	text-align:center;
+	margin:5px;
+		transition:2s ease-in;
+}
+li:hover {
+	width:150px;
+	background-color:blue;
+}
